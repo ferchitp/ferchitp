@@ -67,3 +67,8 @@ I started studying computer science at Northern Virginia Community College and c
 </td>
 </tr>
 </table>
+
+
+<p align="center">
+  <img src="assets/yorkie.svg" width="144" height="96" alt="Pixel Yorkie with a burgundy bow">
+</p>
