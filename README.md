@@ -17,7 +17,7 @@
 ## 👋 About me
 
 ```python
-ferchi = {
+cinthia = {
     "studying": "Computer Science + Mathematics minor at Virginia Tech",
     "building": ["mobile apps", "full-stack tools", "applied AI projects"],
     "curious_about": "How does AI performance change when the data changes?",
