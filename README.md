@@ -1,7 +1,7 @@
 ![Cinthia Terceros · Computer Science at Virginia Tech](assets/banner.svg)
 
 <p align="center">
-  <code>▸ building mobile apps and exploring how to evaluate AI</code>
+    <img src="assets/typing.svg" alt="building mobile apps and exploring how to evaluate AI">
 </p>
 
 <p align="center">
