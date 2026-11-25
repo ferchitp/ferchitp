@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="96" viewBox="0 0 48 32" role="img" aria-labelledby="title" shape-rendering="crispEdges">
+  <title id="title">A tiny gold and steel-gray Yorkshire terrier with a burgundy bow</title>
+  <style>
+    .tail { transform-origin: 36px 18px; animation: wag 1.2s steps(1) infinite; }
+    .eyes { animation: blink 4.6s steps(1) infinite; }
+    @keyframes wag { 25%, 75% { transform: rotate(12deg); } 50% { transform: rotate(-8deg); } }
+    @keyframes blink { 94% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .tail, .eyes { animation: none; } }
+  </style>
+  <path fill="#63374a" opacity=".35" d="M9 28h30v2H9z"/>
+  <g class="tail">
+    <path fill="#332431" d="M34 15h4v-2h2v-3h5v4h-2v4h-3v3h-6z"/>
+    <path fill="#7f818e" d="M36 16h4v-2h2v-3h2v3h-2v3h-2v2h-4z"/>
+  </g>
+  <path fill="#332431" d="M17 14h18v2h3v9h-2v3h-6v-4h-7v4h-7v-4h-3v-7h4z"/>
+  <path fill="#575867" d="M18 15h16v2h3v5h-2v2h-5v-2H21v2h-6v-6h3z"/>
+  <path fill="#9394a0" d="M22 16h11v2h3v2H25v-2h-3z"/>
+  <path fill="#c38a56" d="M17 23h5v4h-5zm14 0h4v4h-4z"/>
+  <path fill="#332431" d="M6 4h3v2h2v2h7V6h2V4h3v4h1v6h2v7h-2v3h-4v2H9v-2H5v-3H3v-7h2V8h1z"/>
+  <path fill="#bc8050" d="M7 6h2v2h2v3h7V8h2V6h2v8h2v6h-2v3h-3v2H10v-2H7v-2H5v-6h2z"/>
+  <path fill="#f0be77" d="M8 13h2v-2h9v2h3v3h1v4h-3v3h-3v1h-6v-1H8v-3H6v-4h2z"/>
+  <path fill="#ffe0a0" d="M10 17h3v-2h3v2h4v4h-2v2h-7v-2H9v-3h1z"/>
+  <path class="eyes" fill="#332431" d="M9 15h2v2H9zm9 0h2v2h-2z"/>
+  <path fill="#332431" d="M13 18h4v2h-1v2h-2v-2h-1z"/>
+  <path fill="#8d2f50" d="M10 8h3v1h3V8h3v5h-3v-1h-3v1h-3z"/>
+  <path fill="#e58aa6" d="M14 9h2v3h-2z"/>
+</svg>
