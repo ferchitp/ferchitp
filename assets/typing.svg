@@ -11,11 +11,81 @@
       .caret { display: none; }
     }
   </style>
-  <defs><clipPath id="typing"><rect class="reveal" x="92" y="0" width="795" height="64"/></clipPath></defs>
+  <defs>
+    <clipPath id="typing"><rect class="reveal" x="92" y="0" width="795" height="64"/></clipPath>
+    <path id="glyph-prompt" d="      M2.5 3h2.5v3h-2.5z      M5 6h2.5v3h-2.5z      M7.5 9h2.5v3h-2.5z    M5 12h2.5v3h-2.5z    M2.5 15h2.5v3h-2.5z        "/>
+    <path id="glyph-b" d="M0 0h2.5v3h-2.5z     M0 3h2.5v3h-2.5z     M0 6h2.5v3h-2.5z  M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z M2.5 9h2.5v3h-2.5z   M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z    M10 15h2.5v3h-2.5z M0 18h2.5v3h-2.5z M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-u" d="          M0 6h2.5v3h-2.5z    M10 6h2.5v3h-2.5z M0 9h2.5v3h-2.5z    M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z   M7.5 15h2.5v3h-2.5z M10 15h2.5v3h-2.5z  M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z  M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-i" d="  M5 0h2.5v3h-2.5z         M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z     M5 9h2.5v3h-2.5z     M5 12h2.5v3h-2.5z     M5 15h2.5v3h-2.5z    M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-l" d=" M2.5 0h2.5v3h-2.5z M5 0h2.5v3h-2.5z     M5 3h2.5v3h-2.5z     M5 6h2.5v3h-2.5z     M5 9h2.5v3h-2.5z     M5 12h2.5v3h-2.5z     M5 15h2.5v3h-2.5z    M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-d" d="    M10 0h2.5v3h-2.5z     M10 3h2.5v3h-2.5z  M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z  M10 6h2.5v3h-2.5z M0 9h2.5v3h-2.5z   M7.5 9h2.5v3h-2.5z M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z    M10 15h2.5v3h-2.5z  M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-n" d="          M0 6h2.5v3h-2.5z  M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z M2.5 9h2.5v3h-2.5z   M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z    M10 15h2.5v3h-2.5z M0 18h2.5v3h-2.5z    M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-g" d="           M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z M10 6h2.5v3h-2.5z M0 9h2.5v3h-2.5z    M10 9h2.5v3h-2.5z  M2.5 12h2.5v3h-2.5z M5 12h2.5v3h-2.5z M7.5 12h2.5v3h-2.5z M10 12h2.5v3h-2.5z     M10 15h2.5v3h-2.5z  M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-m" d="          M0 6h2.5v3h-2.5z M2.5 6h2.5v3h-2.5z  M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z  M5 9h2.5v3h-2.5z  M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z  M5 12h2.5v3h-2.5z  M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z  M5 15h2.5v3h-2.5z  M10 15h2.5v3h-2.5z M0 18h2.5v3h-2.5z  M5 18h2.5v3h-2.5z  M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-o" d="           M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z    M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z    M10 15h2.5v3h-2.5z  M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-e" d="           M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z    M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z M2.5 12h2.5v3h-2.5z M5 12h2.5v3h-2.5z M7.5 12h2.5v3h-2.5z M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z      M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-a" d="           M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z      M10 9h2.5v3h-2.5z  M2.5 12h2.5v3h-2.5z M5 12h2.5v3h-2.5z M7.5 12h2.5v3h-2.5z M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z    M10 15h2.5v3h-2.5z  M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-p" d="          M0 6h2.5v3h-2.5z M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z    M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z M2.5 12h2.5v3h-2.5z M5 12h2.5v3h-2.5z M7.5 12h2.5v3h-2.5z  M0 15h2.5v3h-2.5z     M0 18h2.5v3h-2.5z    "/>
+    <path id="glyph-s" d="           M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z M10 6h2.5v3h-2.5z M0 9h2.5v3h-2.5z      M2.5 12h2.5v3h-2.5z M5 12h2.5v3h-2.5z M7.5 12h2.5v3h-2.5z      M10 15h2.5v3h-2.5z M0 18h2.5v3h-2.5z M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-x" d="          M0 6h2.5v3h-2.5z    M10 6h2.5v3h-2.5z  M2.5 9h2.5v3h-2.5z  M7.5 9h2.5v3h-2.5z    M5 12h2.5v3h-2.5z    M2.5 15h2.5v3h-2.5z  M7.5 15h2.5v3h-2.5z  M0 18h2.5v3h-2.5z    M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-r" d="          M0 6h2.5v3h-2.5z  M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z M2.5 9h2.5v3h-2.5z   M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z     M0 15h2.5v3h-2.5z     M0 18h2.5v3h-2.5z    "/>
+    <path id="glyph-h" d="M0 0h2.5v3h-2.5z     M0 3h2.5v3h-2.5z     M0 6h2.5v3h-2.5z  M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z  M0 9h2.5v3h-2.5z M2.5 9h2.5v3h-2.5z   M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z    M10 15h2.5v3h-2.5z M0 18h2.5v3h-2.5z    M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-w" d="          M0 6h2.5v3h-2.5z    M10 6h2.5v3h-2.5z M0 9h2.5v3h-2.5z    M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z  M5 12h2.5v3h-2.5z  M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z  M5 15h2.5v3h-2.5z  M10 15h2.5v3h-2.5z  M2.5 18h2.5v3h-2.5z  M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-t" d=" M2.5 0h2.5v3h-2.5z     M2.5 3h2.5v3h-2.5z    M0 6h2.5v3h-2.5z M2.5 6h2.5v3h-2.5z M5 6h2.5v3h-2.5z M7.5 6h2.5v3h-2.5z   M2.5 9h2.5v3h-2.5z     M2.5 12h2.5v3h-2.5z     M2.5 15h2.5v3h-2.5z   M10 15h2.5v3h-2.5z   M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+    <path id="glyph-v" d="          M0 6h2.5v3h-2.5z    M10 6h2.5v3h-2.5z M0 9h2.5v3h-2.5z    M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z  M2.5 15h2.5v3h-2.5z  M7.5 15h2.5v3h-2.5z    M5 18h2.5v3h-2.5z  "/>
+    <path id="glyph-A" d=" M2.5 0h2.5v3h-2.5z M5 0h2.5v3h-2.5z M7.5 0h2.5v3h-2.5z  M0 3h2.5v3h-2.5z    M10 3h2.5v3h-2.5z M0 6h2.5v3h-2.5z    M10 6h2.5v3h-2.5z M0 9h2.5v3h-2.5z M2.5 9h2.5v3h-2.5z M5 9h2.5v3h-2.5z M7.5 9h2.5v3h-2.5z M10 9h2.5v3h-2.5z M0 12h2.5v3h-2.5z    M10 12h2.5v3h-2.5z M0 15h2.5v3h-2.5z    M10 15h2.5v3h-2.5z M0 18h2.5v3h-2.5z    M10 18h2.5v3h-2.5z"/>
+    <path id="glyph-I" d=" M2.5 0h2.5v3h-2.5z M5 0h2.5v3h-2.5z M7.5 0h2.5v3h-2.5z    M5 3h2.5v3h-2.5z     M5 6h2.5v3h-2.5z     M5 9h2.5v3h-2.5z     M5 12h2.5v3h-2.5z     M5 15h2.5v3h-2.5z    M2.5 18h2.5v3h-2.5z M5 18h2.5v3h-2.5z M7.5 18h2.5v3h-2.5z "/>
+  </defs>
   <rect x="1" y="1" width="958" height="62" rx="10" fill="#211923" stroke="#553640" stroke-width="2"/>
-  <g fill="#ffe486" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="25">
-    <text x="57" y="41">›</text>
-    <text x="92" y="41" textLength="795" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)">building mobile apps and exploring how to evaluate AI</text>
-    <rect class="caret" x="94" y="22" width="3" height="22" rx="1"/>
+  <g fill="#ffe486">
+    <use href="#glyph-prompt" x="57" y="22"/>
+    <g clip-path="url(#typing)"><g transform="translate(0 22)">
+      <use href="#glyph-b" x="92"/>
+      <use href="#glyph-u" x="107"/>
+      <use href="#glyph-i" x="122"/>
+      <use href="#glyph-l" x="137"/>
+      <use href="#glyph-d" x="152"/>
+      <use href="#glyph-i" x="167"/>
+      <use href="#glyph-n" x="182"/>
+      <use href="#glyph-g" x="197"/>
+      <use href="#glyph-m" x="227"/>
+      <use href="#glyph-o" x="242"/>
+      <use href="#glyph-b" x="257"/>
+      <use href="#glyph-i" x="272"/>
+      <use href="#glyph-l" x="287"/>
+      <use href="#glyph-e" x="302"/>
+      <use href="#glyph-a" x="332"/>
+      <use href="#glyph-p" x="347"/>
+      <use href="#glyph-p" x="362"/>
+      <use href="#glyph-s" x="377"/>
+      <use href="#glyph-a" x="407"/>
+      <use href="#glyph-n" x="422"/>
+      <use href="#glyph-d" x="437"/>
+      <use href="#glyph-e" x="467"/>
+      <use href="#glyph-x" x="482"/>
+      <use href="#glyph-p" x="497"/>
+      <use href="#glyph-l" x="512"/>
+      <use href="#glyph-o" x="527"/>
+      <use href="#glyph-r" x="542"/>
+      <use href="#glyph-i" x="557"/>
+      <use href="#glyph-n" x="572"/>
+      <use href="#glyph-g" x="587"/>
+      <use href="#glyph-h" x="617"/>
+      <use href="#glyph-o" x="632"/>
+      <use href="#glyph-w" x="647"/>
+      <use href="#glyph-t" x="677"/>
+      <use href="#glyph-o" x="692"/>
+      <use href="#glyph-e" x="722"/>
+      <use href="#glyph-v" x="737"/>
+      <use href="#glyph-a" x="752"/>
+      <use href="#glyph-l" x="767"/>
+      <use href="#glyph-u" x="782"/>
+      <use href="#glyph-a" x="797"/>
+      <use href="#glyph-t" x="812"/>
+      <use href="#glyph-e" x="827"/>
+      <use href="#glyph-A" x="857"/>
+      <use href="#glyph-I" x="872"/>
+    </g></g>
+    <rect class="caret" x="93" y="22" width="3" height="22"/>
   </g>
 </svg>
