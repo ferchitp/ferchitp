@@ -56,7 +56,7 @@ I started studying computer science at Northern Virginia Community College and c
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>CalcGuard</h3>
+<h3><a href="https://github.com/ferchitp/JCM">CalcGuard</a></h3>
 <p>Built full-stack features for a personal safety app and wrote 50+ Jest tests.</p>
 <p><code>React Native</code> <code>Firebase</code> <code>Jest</code></p>
 </td>
