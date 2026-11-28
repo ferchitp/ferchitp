@@ -43,6 +43,14 @@ I started studying computer science at Northern Virginia Community College and c
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+<h3><a href="https://github.com/ferchitp/Sentra">Sentra</a></h3>
+<p>Independent research comparing Bandit, an LLM reviewer, and a hybrid approach for finding potential vulnerabilities in Python code. On the OWASP BenchmarkPython subset of my exploratory pilot, the hybrid approach achieved 0.600 F1, compared with 0.333 for Bandit and 0.444 for the LLM alone.</p>
+<p><code>Python</code> <code>FastAPI</code> <code>React</code> <code>TypeScript</code></p>
+<p><a href="https://sentra-lab.pages.dev/">Project site</a> · <a href="https://sentra-lab.pages.dev/research/">Research overview</a></p>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/ferchitp/homecrew">HomeCrew</a></h3>
 <p>Helped build a multimodal AI app that helps renters document maintenance issues and prepare repair requests. Our team placed third at a Virginia Tech Google Developer Groups hackathon.</p>
